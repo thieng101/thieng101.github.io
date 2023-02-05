@@ -1,0 +1,56 @@
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.centered-content {
+    display: inline-block;
+    vertical-align:baseline;
+}
+
+.first-part-content{
+    margin-left: 5px;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.second-part-content{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 2rem;
+    text-align: justify;   
+}
+
+
+.rabbit img{
+    position: relative;
+    animation: rabbitgif 4s 1;
+    /* animation-name: rabbitgif;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count:infinite; */
+}
+
+.second_text{
+    opacity:0;
+    font-size: 2rem;
+    animation:second_text_anim 1s linear 2.5s  infinite alternate both;
+}
+
+@keyframes rabbitgif {
+    0% {
+        left: 0;
+      }
+    100% {
+        left: 100%;
+    }
+    
+}
+
+@keyframes second_text_anim {
+    50% {
+      opacity: 1;
+    }
+  }
+

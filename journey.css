@@ -1,0 +1,19 @@
+.col-sm-4 img{
+    width: 96%;
+    height: 100%;
+}
+
+.projectPart p{
+    font-size: large;
+  }
+  
+.projectPart ul li a{
+    font-size: large;
+}
+
+#headingtext::first-letter{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: black;
+}

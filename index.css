@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("background_pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bs-example{
+    margin-top: 12%;
+}
+
+.titletext{
+    color: white;
+    font-size: large;
+}
+
+.button a{
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+     /* text-align : align inside align  */
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer; 
+    background-color: black
+    
+}
+
+.button a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+}
+
